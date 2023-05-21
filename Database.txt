@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Experiment] (
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [DeviceToken] NVARCHAR (20) NOT NULL,
+    [Key]         NVARCHAR (20) NOT NULL,
+    [Value]       NVARCHAR (20) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
